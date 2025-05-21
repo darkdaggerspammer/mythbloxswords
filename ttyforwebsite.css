@@ -1,0 +1,202 @@
+/* General reset and body styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and borders don't affect element width */
+}
+
+body {
+    background-color: white; /* White background */
+    font-family: 'Arial', sans-serif; /* Clean, simple font */
+    color: #333; /* Default text color */
+}
+
+/* Main title styling */
+h1 {
+    text-align: center; /* Center the title */
+    font-size: 3rem; /* Large font size */
+    color: #1e3a8a; /* Dark blue color */
+    padding-top: 20px; /* Space at the top */
+    padding-bottom: 20px; /* Space from menu */
+}
+
+/* Section headers (h2 and h3) */
+h2, h3 {
+    color: #1e3a8a; /* Blue for headers */
+    text-align: center; /* Centered */
+}
+
+/* General paragraph styling */
+p {
+    font-size: 1.2rem; /* Readable text size */
+    line-height: 1.6; /* Line spacing for readability */
+    padding: 0 20px; /* Horizontal padding */
+    color: #444; /* Slightly lighter grey text */
+    text-align: justify; /* Align paragraphs neatly */
+    margin-top: 15px; /* Space above paragraph */
+}
+
+/* Horizontal rule between sections */
+hr {
+    border: 0;
+    border-top: 2px solid #1e3a8a; /* Blue horizontal line */
+    margin: 20px 0; /* Space above and below */
+}
+
+/* General image styling */
+img {
+    display: block;
+    max-width: 100%; /* Responsive width */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px auto; /* Center image with margin */
+}
+
+/* Specific class for upgrade image */
+.upgrade {
+    width: 200px; /* Set specific width */
+    height: 200px; /* Set specific height */
+}
+
+/* General button styling */
+button {
+    display: block; /* Full width block */
+    margin: 30px auto; /* Center with margin */
+    padding: 10px 20px; /* Space inside button */
+    background-color: #1e3a8a; /* Blue background */
+    color: white; /* White text */
+    font-size: 1.2rem; /* Button text size */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: #2563eb; /* Lighter blue on hover */
+}
+
+/* Link inside button styling */
+button a {
+    color: white; /* Link text stays white */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+}
+
+/* Section spacing */
+section {
+    margin: 40px 0; /* Top and bottom margin */
+}
+
+/* Additional heading and paragraph tweaks */
+h3 {
+    font-size: 1.5rem; /* Slightly smaller than h1/h2 */
+    margin-top: 15px; /* Space above */
+    color: #1e3a8a; /* Blue text */
+}
+
+p {
+    font-size: 1rem; /* Override for smaller text size */
+    margin-top: 10px; /* Slightly less space above */
+    text-align: center;
+}
+
+/* Ensure images stay responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Smaller h1 size override */
+h1 {
+    font-size: 2rem; /* Adjusted size */
+}
+
+/* Final paragraph size override */
+p {
+    font-size: 1rem;
+}
+
+/* Larger dimensions for the upgrade image */
+.upgrade {
+    width: 500px;
+    height: 150px;
+}
+
+/* Smaller button size override */
+button {
+    padding: 8px 15px;
+    font-size: 1rem;
+}
+
+/* Moveset section container styling */
+.moveset {
+    text-align: center; /* Center content */
+    padding: 30px; /* Inner padding */
+    background-color: white; /* White background */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 20px; /* Outer spacing */
+    color: #0066cc;  /* Blue text color */
+}
+
+/* Moveset header styling */
+.moveset h2 {
+    font-size: 2em; /* Large font size */
+    color: #0066cc; /* Blue color */
+    text-decoration: underline; /* Underline */
+}
+
+/* Container for each video */
+.video-container {
+    display: inline-block; /* Keep videos inline */
+    margin: 20px; /* Spacing around video */
+}
+
+/* Styling for the video itself */
+.video-container video {
+    width: 500px; /* Fixed width */
+    height: auto; /* Auto height */
+    border: 5px solid #0066cc; /* Blue border */
+    border-radius: 10px; /* Rounded corners */
+    margin-top: 15px; /* Space above video */
+}
+
+/* Caption under each video */
+.video-container p {
+    color: #0066cc; /* Blue text */
+    font-size: 1.2em; /* Slightly larger text */
+    margin-top: 10px; /* Space above caption */
+}
+
+/* Basic menu styling */
+.menu {
+  background-color: red;  /* Blue background */
+  padding: 10px 0;
+}
+
+.menu ul {
+  list-style: none;          /* Remove bullet points */
+  display: flex;             /* Align items horizontally */
+  justify-content: center;   /* Center menu items */
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li {
+  margin: 0 15px;            /* Space between menu items */
+}
+
+.menu ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 8px 12px;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.menu ul li a:hover {
+  background-color: blue;  /* White on hover */
+}

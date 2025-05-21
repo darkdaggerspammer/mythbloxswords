@@ -1,0 +1,48 @@
+/* Container for the contact content */
+.contact-container {
+    max-width: 600px; /* Limits container width */
+    margin: 100px auto; /* Centers container with space on top/bottom */
+    background-color: white; /* Sets white background */
+    padding: 30px; /* Adds space inside the container */
+    border-radius: 12px; /* Rounds the corners */
+    box-shadow: 0 0 10px rgba(0, 102, 204, 0.2); /* Light blue shadow for depth */
+    text-align: center; /* Centers text inside the container */
+}
+
+/* Main heading inside the contact container */
+.contact-container h1 {
+    color: #0066cc; /* Blue color for heading */
+    margin-bottom: 20px; /* Spacing below the heading */
+}
+
+/* Paragraphs inside contact container */
+.contact-container p {
+    font-size: 1.1em; /* Slightly larger text */
+    margin: 10px 0; /* Vertical spacing between paragraphs */
+    color: #333; /* Dark gray text */
+}
+
+/* Links inside contact container */
+.contact-container a {
+    color: #0066cc; /* Blue link color */
+    text-decoration: none; /* Removes underline */
+    font-weight: bold; /* Makes text bold */
+}
+
+/* Link hover effect */
+.contact-container a:hover {
+    text-decoration: underline; /* Underlines link when hovered */
+}
+
+/* Style for the back-to-home button/link */
+.back-home {
+    display: inline-block; /* Allows padding and margin */
+    color: white; /* White text */
+    padding: 12px 24px; /* Button size */
+    margin: 10px; /* Space around the button */
+    border-radius: 8px; /* Rounded corners */
+    text-decoration: none; /* No underline */
+    font-weight: bold; /* Bold text */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+    background-color: #357ABD; /* Dark blue tone used */
+}

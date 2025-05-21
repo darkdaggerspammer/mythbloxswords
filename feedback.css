@@ -1,0 +1,64 @@
+/* Body styling for overall layout and appearance */
+body {
+    margin: 0; /* Removes default margin */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Clean, modern font */
+    background-color: #f0f8ff; /* Light blue background for a soft look */
+    color: #333; /* Default text color: dark gray */
+    display: flex; /* Enables Flexbox for centering */
+    justify-content: center; /* Horizontally center the content */
+    align-items: flex-start; /* Align content to the top (not center vertically) */
+    min-height: 100vh; /* Makes sure body is at least the full height of the viewport */
+    padding: 40px 20px; /* Space around the content */
+}
+
+/* Main content container styling */
+.main-area {
+    background: white; /* White background for contrast */
+    padding: 30px 40px; /* Inner spacing */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 6px 18px rgba(74, 144, 226, 0.3); /* Soft blue shadow for a card-like look */
+    max-width: 720px; /* Maximum width */
+    width: 100%; /* Make sure it’s responsive */
+    text-align: center; /* Center all text inside */
+}
+
+/* Feedback title styling */
+.feedback-container h1 {
+    color: #4a90e2; /* Bright blue color */
+    margin-bottom: 10px; /* Space below heading */
+    font-size: 2.5rem; /* Large font size */
+}
+
+/* Feedback paragraph styling */
+.feedback-container p {
+    font-size: 1.1rem; /* Slightly larger text */
+    margin-bottom: 30px; /* Space below paragraph */
+    color: #555; /* Medium gray text color */
+}
+
+/* Embedded form (iframe) styling */
+.iframe {
+    border: 2px solid #4a90e2; /* Blue border around the iframe */
+    border-radius: 8px; /* Rounded corners */
+    max-width: 100%; /* Responsive width */
+    box-shadow: 0 4px 15px rgba(74, 144, 226, 0.2); /* Soft shadow to lift the iframe visually */
+}
+
+/* Button styling for "Back to Home" */
+.back-home-btn {
+    margin-top: 30px; /* Space above the button */
+    padding: 12px 24px; /* Size of the button */
+    background-color: #4a90e2; /* Bright blue background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 8px; /* Rounded corners */
+    font-weight: 600; /* Bold text */
+    font-size: 1rem; /* Standard size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Button hover effect */
+.back-home-btn:hover {
+    background-color: #3565b3; /* Darker blue on hover */
+}

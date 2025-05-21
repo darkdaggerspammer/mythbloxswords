@@ -1,0 +1,176 @@
+/* ========== GENERAL RESET ========== */
+/* Reset margin, padding, and box-sizing for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ========== BODY STYLING ========== */
+body {
+    background-color: white; /* Page background color */
+    font-family: 'Arial', sans-serif; /* Clean and readable font */
+    color: #333; /* Default text color */
+}
+
+/* ========== HEADINGS ========== */
+
+/* Main page title (h1) */
+h1 {
+    text-align: center;
+    font-size: 2rem; /* Responsive scaling */
+    color: #1e3a8a; /* Dark blue */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Section and subsection headings */
+h2, h3 {
+    color: #1e3a8a; /* Dark blue headings */
+    text-align: center;
+}
+
+/* Specific trial section headings */
+h3 {
+    font-size: 1.5rem;
+    margin-top: 15px;
+}
+
+/* ========== PARAGRAPH STYLING ========== */
+p {
+    font-size: 1rem; /* Standardized text size */
+    line-height: 1.6; /* Line spacing for readability */
+    padding: 0 20px; /* Padding left and right */
+    color: #444; /* Slightly lighter than body text */
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* ========== SECTION DIVIDER LINE ========== */
+hr {
+    border: 0;
+    border-top: 2px solid #1e3a8a; /* Blue horizontal line */
+    margin: 20px 0;
+}
+
+/* ========== IMAGE STYLING ========== */
+img {
+    display: block;
+    max-width: 100%; /* Responsive */
+    height: auto;
+    margin: 20px auto;
+}
+
+/* Styling specifically for upgrade image */
+.upgrade {
+    width: 500px;
+    height: 150px;
+}
+
+/* ========== BUTTON STYLING ========== */
+button {
+    display: block;
+    margin: 30px auto;
+    padding: 8px 15px; /* Comfortable padding */
+    background-color: #1e3a8a; /* Dark blue */
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Button hover state */
+button:hover {
+    background-color: #2563eb; /* Brighter blue on hover */
+}
+
+/* Link inside button (e.g., "Back to Home") */
+button a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* ========== SECTION STYLING ========== */
+section {
+    margin: 40px 0; /* Space between sections */
+}
+
+/* ========== MOVESET SECTION ========== */
+.moveset {
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Light shadow */
+    margin: 20px;
+    color: #0066cc;
+}
+
+/* Moveset title */
+.moveset h2 {
+    font-size: 2em;
+    color: #0066cc;
+    text-decoration: underline;
+}
+
+/* Container for each move video */
+.video-container {
+    display: inline-block;
+    margin: 20px;
+}
+
+/* Video styling */
+.video-container video {
+    width: 500px;
+    height: auto;
+    border: 5px solid #0066cc;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+/* Caption below each video */
+.video-container p {
+    color: #0066cc;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* ========== LOCATION SECTION INDENTING ========== */
+.locations {
+    text-align: center;
+}
+
+/* Basic menu styling */
+.menu {
+  background-color: red;  /* Blue background */
+  padding: 10px 0;
+}
+
+.menu ul {
+  list-style: none;          /* Remove bullet points */
+  display: flex;             /* Align items horizontally */
+  justify-content: center;   /* Center menu items */
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li {
+  margin: 0 15px;            /* Space between menu items */
+}
+
+.menu ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 8px 12px;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.menu ul li a:hover {
+  background-color: blue;  /* White on hover */
+}

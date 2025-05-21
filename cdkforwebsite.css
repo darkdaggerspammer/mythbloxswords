@@ -1,0 +1,204 @@
+/* Reset default margin, padding, and box-sizing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling: background, font, and default text color */
+body {
+    background-color: white;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+/* Main title header */
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: #1e3a8a;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Section titles (h2, h3) */
+h2, h3 {
+    color: #1e3a8a;
+    text-align: center;
+}
+
+/* Paragraphs: font, spacing, and alignment */
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    padding: 0 20px;
+    color: #444;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Horizontal rule: section divider */
+hr {
+    border: 0;
+    border-top: 2px solid #1e3a8a;
+    margin: 20px 0;
+}
+
+/* General image style: center and responsive */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+}
+
+/* Upgrade image specific size */
+.upgrade {
+    width: 200px;
+    height: 200px;
+}
+
+/* Button style: center, color, hover effect */
+button {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    background-color: #1e3a8a;
+    color: white;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+/* Button hover color */
+button:hover {
+    background-color: #2563eb;
+}
+
+/* Anchor inside button */
+button a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Section layout spacing */
+section {
+    margin: 40px 0;
+}
+
+/* Trial section header */
+h3 {
+    font-size: 1.5rem;
+    margin-top: 15px;
+    color: #1e3a8a;
+}
+
+/* Paragraph override: spacing and size */
+p {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+/* Make sure trial images are responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Title font override (likely smaller for mobile) */
+h1 {
+    font-size: 2rem;
+}
+
+/* Paragraph font override */
+p {
+    font-size: 1rem;
+}
+
+/* Override upgrade image size */
+.upgrade {
+    width: 500px;
+    height: 150px;
+}
+
+/* Smaller button padding and font size */
+button {
+    padding: 8px 15px;
+    font-size: 1rem;
+}
+
+/* Moveset container box */
+.moveset {
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    color: #0066cc;
+}
+
+/* Moveset section heading style */
+.moveset h2 {
+    font-size: 2em;
+    color: #0066cc;
+    text-decoration: underline;
+}
+
+/* Container for videos side-by-side */
+.video-container {
+    display: inline-block;
+    margin: 20px;
+}
+
+/* Video styling: size, border, rounded */
+.video-container video {
+    width: 500px;
+    height: auto;
+    border: 5px solid #0066cc;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+/* Video captions: move names */
+.video-container p {
+    color: #0066cc;
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Basic menu styling */
+.menu {
+  background-color: red;  /* Blue background */
+  padding: 10px 0;
+}
+
+.menu ul {
+  list-style: none;          /* Remove bullet points */
+  display: flex;             /* Align items horizontally */
+  justify-content: center;   /* Center menu items */
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li {
+  margin: 0 15px;            /* Space between menu items */
+}
+
+.menu ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  padding: 8px 12px;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.menu ul li a:hover {
+  background-color: blue;  /* White on hover */
+}
+
